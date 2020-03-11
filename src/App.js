@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+const mooncake = require('/Users/Primero/Documents/todoreact/src/img/mooncake.png');
 
 function App() {
   return (
     <div className="App">
+      <p className="App-tittle">
+        FINAL SPACE REMINDER APP
+      </p>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={mooncake} className="App-logo" alt="mooncake" /> 
       </header>
+      <button className="Start-button">Let's Go!</button>
     </div>
   );
 }
